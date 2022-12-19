@@ -20,6 +20,28 @@ união | união (union) - Une
 intersecção & (interserction) - itens presentes em ambos
 #diferença - Itens presentes apenas no set da esquerda
 diferença simétrica ^ - Itens que não estã o em ambos
+------------------------------------------------------
+Sets - set in Python (set type)
+Sets are taught in mathematics
+graphically represented by the Venn diagram
+Set in Pthon are mutable, because they only accept immutable types as internal values
+
+creating a set
+set(interable) or {1,2,3}
+
+set are efficient for removing duplicate values ​​from iterables.
+they don't have indices;
+they do not guarantee order;
+they are iterable (for,in,not in)
+
+Useful methods:
+add, update, clear, discard
+
+Useful operators:
+union | union (union)
+intersection & (interserction) - items present in both
+#difference - Items present only in the left set
+symmetric difference ^ - Items that are not in both
 '''
 
 import os

@@ -1,5 +1,7 @@
 '''
 Closure e funções que retornam outras funções
+---------------------------------------------
+Closure and functions that return other functions
 '''
 import os
 os.system('cls')

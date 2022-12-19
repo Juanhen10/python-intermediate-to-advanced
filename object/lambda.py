@@ -10,6 +10,16 @@ lista = [
     {'nome': 'Maria','sobrenome':'Oliveira'},
     {'nome': 'Aline','sobrenome':'Souza'},
 ]
+lambda function in python
+The lambda function is a function like any other in Python.
+however, they are anonymous functions that contain only one line.
+That is, everything must be contained within an expression.
+list = [
+    {'name': 'Luiz','last name':'miranda'},
+    {'firstname': 'Juan','lastname':'henrique'},
+    {'firstname': 'Victor','lastname':'Hugo'},
+    {'name': 'Maria','last name':'Oliveira'},
+    {'name': 'Aline','last name':'Souza'},
 '''
 import os
 os.system('cls')

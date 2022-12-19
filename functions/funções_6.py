@@ -1,5 +1,7 @@
 '''
 Retorno de valores das funções (return)
+-----------------------------------------
+Return of function values ​​(return)
 '''
 import os
 os.system('cls')
