@@ -3,4 +3,7 @@ os.system('cls')
 
 
 
-print('este módulo se chama', __name__)
+variavel_modulo = 'juan'
+
+def soma(x,y):
+    return x + y

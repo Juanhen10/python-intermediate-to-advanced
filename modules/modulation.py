@@ -17,7 +17,8 @@ python knows all modules and packages present in the "sys.path" paths
 '''
 import sys
 
-import modulation_test
+from modulation_test import variavel_modulo, soma
 
-print(modulation_test)
-print(*sys.path, sep='\n')
+print(variavel_modulo)
+print(soma(1,2))
+# print(*sys.path, sep='\n')
