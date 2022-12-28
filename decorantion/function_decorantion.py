@@ -10,6 +10,7 @@ def criar_funcao(func):
         for arg in args:
             is_string(arg)
         resultado = func(*args, **kwargs)
+        print('ok, agora você foi decorada')
         return resultado
     return interna
 
@@ -21,5 +22,5 @@ def is_string(param):
         raise TypeError('param deve ser uma string')
 
 inverte_string_checando_parametro = criar_funcao(inverte_string)
-invertida = inverte_string(123)
+invertida = inverte_string_checando_parametro(123)
 print(invertida)
