@@ -1,0 +1,23 @@
+{
+  "nome": "Juan Henrique",
+  "sobrenome": "correia",
+  "ebdere\u00e7os": [
+    {
+      "rua": "R1",
+      "numero": 32
+    },
+    {
+      "rua": "R2",
+      "numero": 55
+    }
+  ],
+  "altura": 1.7,
+  "numeros_preferidos": [
+    4,
+    7,
+    17,
+    10
+  ],
+  "dev": true,
+  "nada": null
+}
