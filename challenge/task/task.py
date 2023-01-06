@@ -25,7 +25,7 @@ while True:
         print('tarefa criada!')
         linha()
         continue
-    if opc == 2:
+    elif opc == 2:
         refaz = str(input('Quer refazer? [S/N]: ')).upper()
         if refaz == 'S':
             lista.clear()
@@ -33,7 +33,7 @@ while True:
             linha
         if refaz == 'N':
             continue
-    if opc == 3:
+    elif opc == 3:
         try:
             for pos, itens in enumerate(lista):
                 print(f'{pos}-----{itens}')
@@ -46,18 +46,22 @@ while True:
             print('não tem itens na lista')
             linha()
             continue
-    if opc == 4:
+    elif opc == 4:
         linha('lista de tarefas')
-        with open(JSON_FILE, 'w', encoding='utf8') as file:
-             json.dump(lista, file, indent=2)
         for i in lista:
             print(i)
         linha()
-    if opc == 5:
+    elif opc == 5:
         print('volte sempre!')
         linha()
         break
         
-BASE_DIR = '\\Users\\Juan.Henrique\\Desktop\pythonn\\challenge\\task'
+with open(JSON_FILE, 'w', encoding='utf8') as file:
+        json.dump(lista, file, indent=2)
+
+
+
+
+# BASE_DIR = '\\Users\\Juan.Henrique\\Desktop\pythonn\\challenge\\task'
 
     
