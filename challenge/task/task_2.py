@@ -24,6 +24,7 @@ def listar(tarefas):
     print('Tarefas:')
     for tarefa in tarefas:
         print(f'\t{tarefa}')
+    listar(tarefas)
     print()
         
 
@@ -36,6 +37,7 @@ def desfazer(tarefas, tarefas_refazer):
     tarefa = tarefas.pop()
     print(f'{tarefa} removida da lista de tarefa')
     tarefas_refazer.append(tarefa)  
+    listar(tarefas)
     print()  
     
 
@@ -48,6 +50,7 @@ def refazer(tarfas, tarefas_refazer):
     tarefa = tarefas_refazer.pop()
     print(f'{tarefa} adiconada novamente na lista de tarefa')
     tarefas.append(tarefa)
+    listar(tarefas)
     print()
     
     
@@ -59,6 +62,7 @@ def adicionar(tarefa, tarefas):
         return
     tarefas.append(tarefa)
     print(f'{tarefa} adicionada na lista de tarefa')
+    listar(tarefas)
     print()
         
 tarefas = []
@@ -68,6 +72,18 @@ tarefas_refazer = []
 while True:
     print('Comandos: listar, desfazer e refazer')
     tarefa = input('Digite uma tarefa ou comando: ')
+    
+    # comandos = {
+    #     'listar': lambda: listar(tarefas),
+    #     'desfazer': lambda: desfazer(tarefas, tarefas_refazer),
+    #     'refazer': lambda: refazer(tarefas, tarefas_refazer),
+    #     'clear':lambda: os.system('cls'),
+    #     'adicionar':lambda: adicionar(tarefa, tarefas),
+    # }
+    # comando = comandos.get(tarefa) if comandos.get(tarefa) is not None else \
+    #     comandos['adicionar'] 
+    # comando()
+    
     
     if tarefa == 'listar':
         listar(tarefas)
