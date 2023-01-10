@@ -1,1 +1,37 @@
-"car.json"
+[
+  {
+    "name": "Golf GTI",
+    "year": "1998",
+    "car_brand": "GOLF",
+    "type": "MK4",
+    "solding": false
+  },
+  {
+    "name": "Civic",
+    "year": "1998",
+    "car_brand": "HONDA",
+    "type": "no type",
+    "solding": true
+  },
+  {
+    "name": "Lancer",
+    "year": "2020",
+    "car_brand": "Mitsubishi",
+    "type": "Mitsubishi Lancer HL",
+    "solding": false
+  },
+  {
+    "name": "A4",
+    "year": "2021",
+    "car_brand": "AUDI",
+    "type": "Prestige",
+    "solding": true
+  },
+  {
+    "name": "BMW M3",
+    "year": "2020",
+    "car_brand": "BMW",
+    "type": "M4",
+    "solding": true
+  }
+]
