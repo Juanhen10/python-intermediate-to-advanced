@@ -1,4 +1,4 @@
-import os 
+ import os 
 os.system('cls')
 # @propety - um getter no modo Pythônico 
 # Getter - um metodo para obter um atributo no modo Pythonico - modo do Python fazer as coisas
@@ -8,10 +8,11 @@ os.system('cls')
 #   - p/ evitar quebra de código cliente
 #   - p/ habilitar setter
 #   - p/ executar ações ao obter um atributo
+# atributos que começam com um ou dois aderline, não devem ser usados fora da classe
 
 class Caneta:
     def __init__(self, cor):
-        # private - protecte - public
+        # private - protect - public
         self.cor_tinta = cor
         
     @property
