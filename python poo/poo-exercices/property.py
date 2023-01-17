@@ -1,8 +1,8 @@
- import os 
+import os 
 os.system('cls')
 # @propety - um getter no modo Pythônico 
 # Getter - um metodo para obter um atributo no modo Pythonico - modo do Python fazer as coisas
-# @propery é uma propriedade do objeto, ela é um metodo que se comport acomo atributo
+# @propery é uma propriedade do objeto, ela é um metodo que se comporta como atributo
 # geralmente é usada nas seh=guintes situações:
 #   - como getter
 #   - p/ evitar quebra de código cliente

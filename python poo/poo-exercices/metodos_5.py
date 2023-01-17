@@ -5,7 +5,7 @@ os.system('cls')
 # Mas podemos seguir as seguintes convenções
 #     (sem underline) = public
 #               pode er usado em qualquer lugar
-# _ (um underline) = protected 
+# _   (um underline) = protected 
 #               não DEVE ser usado fora da classe
 #               ou suas subclasses.
 #__  (dois underlines) = private 
