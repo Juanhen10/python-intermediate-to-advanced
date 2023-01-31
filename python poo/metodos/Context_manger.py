@@ -8,7 +8,8 @@ os.system('cls')
 # Quando vejo um pássaro que caminha como um pato, nada como
 # um pato e grasna como pato, eu chamo aquele passari de pato
 # PAra criar um contet manager, os métodos __enter__e _exit__ devem ser implementados.
-# O método __exit_- recebá a classe de exceção, a exceção e traceback. Se ele tretornar True, exceção no with será suprimidas.
+# O método __exit_- recebá a classe de exceção, a exceção e traceback. 
+# Se ele tretornar True, exceção no with será suprimidas.
 # EX:
 # with open('aula149.txt', 'w') as arquivo:
 class myOpen:
@@ -27,10 +28,24 @@ class myOpen:
         print('FECHANDO ARQUIVO')
         self._arquivo.close()
         
+        # raise class_exception('Minha mensagem')
+        # raise class_exception(*exception_.args).with_traceback(traceback_)
+        # print(class_exception)
+        # print(exception_)
+        # print(traceback_)
+        
+        # raise ConnectionError('Não deu para conectar')
+        
+        # exception_.add_note('Minha nota')
+        
+        # return True # Tratei a exceção
+        
+        
+        
 
 
 with myOpen('aula149','w') as arquivo:
     arquivo.write('Linha 1\n')
-    arquivo.write('Linha 2\n')
+    arquivo.write('Linha 2\n', 123)
     arquivo.write('Linha 3\n')
     print('With', arquivo) 
