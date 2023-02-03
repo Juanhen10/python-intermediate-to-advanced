@@ -1,5 +1,5 @@
 # import docs_one_line
-import docstrings_many_lines
+import docstring_function
 import os 
 os.system('cls')
 
@@ -9,4 +9,4 @@ os.system('cls')
 # print(docs_one_line.__file__)
 # print(docs_one_line.__name__)
 
-help(docstrings_many_lines)
+help(docstring_function)
