@@ -26,7 +26,7 @@ class Foo(AbstractFOO):
         super().__init__(name)
         # print('Sou inútil')
         
-    @AbstractFOO.name.setter
+    # @AbstractFOO.name.setter
     def name(self, name):
         self._name = name
     

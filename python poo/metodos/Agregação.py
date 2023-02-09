@@ -33,7 +33,7 @@ class ferramentaDeEscrever:
 escritor = Escritor('Juan')
 caneta = ferramentaDeEscrever('caneta Bic')
 maquina_de_escrever = ferramentaDeEscrever('Maquina')
-escritor.ferramenta = maquina_de_escrever
+# escritor.ferramenta = maquina_de_escrever
 
 print(caneta.escrever())
 print(maquina_de_escrever.escrever())
