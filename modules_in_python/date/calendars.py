@@ -1,5 +1,8 @@
 import calendar
+import locale
 import os
+
+# GET-winsystemLOcale
 
 os.system('cls')
 # Usando calendar para calendários e datas
@@ -22,8 +25,13 @@ os.system('cls')
 # print(calendar.day_name[calendar.weekday(2022, 12, ultimo_dia)]) # ultimo dia
 
 # print(calendar.monthcalendar(2023, 2))
-for week in calendar.monthcalendar(2023, 2):
-    for day in week:
-        if day == 0:
-            continue
-        print(day)
+# for week in calendar.monthcalendar(2023, 2):
+#     for day in week:
+#         if day == 0:
+#             continue
+#         print(day)
+
+locale.setlocale(locale.LC_ALL, '')
+
+print(locale.getlocale())
+print(calendar.calendar(2023))
