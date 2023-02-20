@@ -1,3 +1,9 @@
+import json
+import os
+# from pprint import pprint
+from typing import TypedDict
+
+os.system('cls')
 # o Que é Json?
 # JSON - JavaScript Object Notation (extensão .json)
 # É uma estrutura de dados que permite a serialização de objetos em textos simples
@@ -18,3 +24,32 @@
 # True          true
 # False         false
 # None          null
+
+
+class Movie(TypedDict):
+    title: str
+    original_title: str
+    is_movie: bool
+    imbd_rating: float
+    year: int
+    characters: list[str]
+    budget: None | float
+
+
+string_json = '''
+{
+    "title": "O senhor dos Anéis: A sociedade do Anel",
+    "original_title": "The lord of the Rings: The Fellowship of the ring",
+    "is_movie": true,
+    "imbd_rating" : 8.8,
+    "year": 2001,
+    "characters": ["frod", "Sam", "Gandalf", "Legolas", "Boromir"],
+    "buddget": null
+}
+
+'''
+movie: Movie = json.loads(string_json)
+# pprint(movie)
+# print(movie['characters'][0])
+# print(movie['characters'][1])
+print(json.dumps(movie, ensure_ascii=False, indent=2))
