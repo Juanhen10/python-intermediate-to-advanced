@@ -17,3 +17,6 @@
 # https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 # - Os cabeçalhos HTTP (Content-Type, Accept)
 # - O corpo da mensagem (Pode estar em vazio em alguns casos)
+
+
+# python - m http.server -d siste_test/3333
