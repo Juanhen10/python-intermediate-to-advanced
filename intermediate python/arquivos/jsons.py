@@ -4,7 +4,7 @@ import os
 # pessoa = {
 #     'nome': 'Juan Henrique',
 #     'sobrenome': 'correia',
-#     'ebdereços': [ 
+#     'ebdereços': [
 #         {'rua': 'R1', 'numero': 32},
 #         {'rua': 'R2', 'numero': 55},
 #         ],
@@ -19,7 +19,7 @@ import os
 
 # # with open(SAVE_TO, 'w+') as file:
 # #     json.dump(pessoa, file, indent=2)
-    
+
 
 # # print(json.dumps(pessoa, indent=2))
 
@@ -27,12 +27,12 @@ import os
 # with open(JSON_FILE, 'r+') as file:
 #     pessoas = json.load(file)
 #     print(json.dumps(pessoas, indent= 2))
-    # for p in pessoas:
-    #     print(pessoas['nome'])
-    
+# for p in pessoas:
+#     print(pessoas['nome'])
+
 json_string = '''
 [{
-    "name": "juan",
+    "name": "v",
     "lastname": "Henrique",
     "age": 20,
     "addresses": [
