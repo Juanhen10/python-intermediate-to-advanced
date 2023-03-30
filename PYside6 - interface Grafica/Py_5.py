@@ -9,6 +9,7 @@ system('cls')
 
 
 app = QApplication(sys.argv)
+
 window = QMainWindow()
 cenral_widget = QWidget()
 window.setCentralWidget(cenral_widget)
