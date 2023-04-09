@@ -4,11 +4,13 @@
 
 import sys
 
+from buttons import Button, ButtonsGrid
 from display import Display
 from info import Info
 from main_window import MainWindow
 from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import QApplication
+from styles import setupTheme
 from variables import WINDOW_ICON_PATH
 
 if __name__ == '__main__':
@@ -29,6 +31,14 @@ if __name__ == '__main__':
     display = Display()
     display.setPlaceholderText('◅')
     window.addWidgetToVLayout(display)
+
+    # Grid - Buttons
+    buttons_grid = ButtonsGrid()
+    window.vLayout.addLayout(buttons_grid)
+
+    # theme
+    # theme_1(app, 'dark_blue.xml')
+    setupTheme()
 
     # executa tudo
     window.adjustFixedSize()
