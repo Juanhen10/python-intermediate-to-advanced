@@ -8,8 +8,8 @@ import sys
 
 import qdarktheme
 from qt_material import apply_stylesheet
-from variables import (DARKER_PRIMARY_COLOR, DARKEST_PRIMARY_COLOR,
-                       PRIMARY_COLOR)
+from variables_2 import (DARKER_PRIMARY_COLOR, DARKEST_PRIMARY_COLOR,
+                         PRIMARY_COLOR)
 
 color_list = ['dark_amber.xml',
               'dark_blue.xml',
