@@ -1,3 +1,4 @@
+import math
 from typing import TYPE_CHECKING
 
 from display_3 import Display
@@ -81,7 +82,7 @@ class ButtonsGrid(QGridLayout):
             self._connectButtonClicked(button, slot)
             # button.clicked.connect(self.display.clear)
 
-        if text in '+-/*':
+        if text in '+-/*^':
             self._connectButtonClicked(
                 button, self._makeSlot(self._operatorClicked, button))
 
@@ -137,15 +138,24 @@ class ButtonsGrid(QGridLayout):
             return
 
         self._right = float(displayText)
+        # self._left = float
         self.equation = f'{self._left} {self._op} {self._right}'
-        result = 0
+        result = 'error'
         try:
-            result = eval(self.equation)
+            if '^' in self.equation and isinstance(self._left, float):
+                result = math.pow(self._left, self._right)
+            else:
+                result = eval(self.equation)
+
             print(result)
-        except ZeroDivisionError:
-            print('zero erro')
+        except (ZeroDivisionError):
+            print('Não divide zero')
+        except OverflowError:
+            print('numero muito grande')
 
         self.display.clear()
         self.info.setText(f'{self.equation} = {result}')
-        self._left = result
         self._right = None
+
+        if result == 'error':
+            self._left = None
