@@ -33,7 +33,7 @@ class ButtonsGrid(QGridLayout):
         super().__init__(*args, **kwargs)
 
         self._grid_mask = [
-            ['C', '◀', '^', '/'],
+            ['C', 'D', '^', '/'],
             ['7', '8', '9', '*'],
             ['4', '5', '6', '-'],
             ['1', '2', '3', '+'],
@@ -81,6 +81,8 @@ class ButtonsGrid(QGridLayout):
             slot = self._makeSlot(self._clear, 'msg')
             self._connectButtonClicked(button, slot)
             # button.clicked.connect(self.display.clear)
+        if text in 'D':
+            self._connectButtonClicked(button, self.display.backspace)
 
         if text in '+-/*^':
             self._connectButtonClicked(
@@ -138,7 +140,6 @@ class ButtonsGrid(QGridLayout):
             return
 
         self._right = float(displayText)
-        # self._left = float
         self.equation = f'{self._left} {self._op} {self._right}'
         result = 'error'
         try:
