@@ -33,7 +33,7 @@ if __name__ == '__main__':
     window.addWidgetToVLayout(display)
 
     # Grid - Buttons
-    buttons_grid = ButtonsGrid(display, info)
+    buttons_grid = ButtonsGrid(display, info, window)
     window.vLayout.addLayout(buttons_grid)
 
     # theme

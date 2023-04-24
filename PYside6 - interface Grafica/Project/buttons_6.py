@@ -10,6 +10,7 @@ from variables_2 import MEDIUM_FONT_SIZE
 if TYPE_CHECKING:
     from display_3 import Display
     from info_4 import Info
+    from main_window_1 import MainWindow
 
 
 class Button(QPushButton):
@@ -29,7 +30,7 @@ class Button(QPushButton):
 
 
 class ButtonsGrid(QGridLayout):
-    def __init__(self, display: 'Display', info: 'Info', *args, **kwargs):
+    def __init__(self, display: 'Display', info: 'Info', window: 'MainWindow', *args, **kwargs):
         super().__init__(*args, **kwargs)
 
         self._grid_mask = [
@@ -42,6 +43,7 @@ class ButtonsGrid(QGridLayout):
         self.display = display
         self.info = info
         self._equation = ''
+        self.window = window
         self._equationInitialValue = ''
         self._left = None
         self._right = None
@@ -122,7 +124,7 @@ class ButtonsGrid(QGridLayout):
 
         # Se clicou no operador sem número
         if not isValidNumber(displayText) and self._left is None:
-            print('não tem nada para colocar no valor da esquerda')
+            self._showInfo('Você não digitou nada')
             return
 
         # se tiver número e clicar no operador
@@ -136,7 +138,7 @@ class ButtonsGrid(QGridLayout):
         displayText = self.display.text()
 
         if not isValidNumber(displayText):
-            print('Sem nada para a direita')
+            self._showError('Conta incompleta')
             return
 
         self._right = float(displayText)
@@ -150,9 +152,9 @@ class ButtonsGrid(QGridLayout):
 
             print(result)
         except (ZeroDivisionError):
-            print('Não divide zero')
+            self._showError('Não divide zero')
         except OverflowError:
-            print('numero muito grande')
+            self._showInfo('numero muito grande')
 
         self.display.clear()
         self.info.setText(f'{self.equation} = {result}')
@@ -160,3 +162,36 @@ class ButtonsGrid(QGridLayout):
 
         if result == 'error':
             self._left = None
+
+############################################## Erros #######################################################
+    def _makeDialog(self, text):
+        msgBox = self.window.makeMsgBox()
+        msgBox.setText(text)
+        return msgBox
+
+    def _showError(self, text):
+        msgBox = self._makeDialog(text)
+        msgBox.setIcon(msgBox.Icon.Critical)
+
+        # msgBox.setStandardButtons(
+        #     msgBox.StandardButton.Close |
+        #     msgBox.StandardButton.Cancel |
+        #     msgBox.StandardButton.Save
+        # )
+        # # msgBox.button(msgBox.StandardButton.Close).setText('Fechar')
+
+        # result = msgBox.exec()
+
+        # if result == msgBox.StandardButton.Close:
+        #     print('Usuario cliclou em save')
+        # elif result == msgBox.StandardButton.Cancel:
+        #     print('Usuario cliclou em Cancel')
+        # elif result == msgBox.StandardButton.Save:
+        #     print('Usuario cliclou em Save')
+
+        msgBox.exec()
+
+    def _showInfo(self, text):
+        msgBox = self._makeDialog(text)
+        msgBox.setIcon(msgBox.Icon.Information)
+        msgBox.exec()
