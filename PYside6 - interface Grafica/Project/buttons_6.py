@@ -62,6 +62,10 @@ class ButtonsGrid(QGridLayout):
         self.info.setText(value)
 
     def _makeGrid(self):
+        self.display.enterPressed.connect(lambda: print(123))
+        self.display.delPressed.connect(self.display.backspace)
+        self.display.clearPressed.connect(self.display.clear)
+
         for i, row in enumerate(self._grid_mask):
             for j, button_text in enumerate(row):
                 button = Button(button_text)
@@ -83,14 +87,14 @@ class ButtonsGrid(QGridLayout):
             slot = self._makeSlot(self._clear, 'msg')
             self._connectButtonClicked(button, slot)
             # button.clicked.connect(self.display.clear)
-        if text in 'D':
+        if text == 'D':
             self._connectButtonClicked(button, self.display.backspace)
 
         if text in '+-/*^':
             self._connectButtonClicked(
                 button, self._makeSlot(self._operatorClicked, button))
 
-        if text in '=':
+        if text == '=':
             self._connectButtonClicked(button, self._eq)
 
     def _makeSlot(self, func, *args, **kwargs):
