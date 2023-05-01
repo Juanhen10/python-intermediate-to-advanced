@@ -82,3 +82,7 @@ if choice == 5:
     description(
         list_cat, 1, 'shows the line detail you can choose to change the file')
     description(list_cat, 2, 'Create a new file')
+
+
+# comando history mostra o historico de comandos usados
+# ctrl + r mostrará uma barra de pesquisa, para procurar comandos

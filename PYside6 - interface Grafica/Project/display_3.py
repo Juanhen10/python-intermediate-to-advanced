@@ -12,10 +12,13 @@ class Display(QLineEdit):
     delPressed = Signal()
     clearPressed = Signal()
     inputPressed = Signal(str)
+    operatorPressed = Signal(str)
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.configStyle()
+
+        self.setReadOnly(True)
 
     def configStyle(self):
         margin = [TEXT_MARGIN for _ in range(4)]
@@ -33,19 +36,28 @@ class Display(QLineEdit):
         isEnter = key in [KEYS.Key_Enter, KEYS.Key_Return]
         isDelete = key in [KEYS.Key_Backspace, KEYS.Key_Delete, KEYS.Key_D]
         isEsc = key in [KEYS.Key_Escape, KEYS.Key_C]
+        isOperator = key in [KEYS.Key_Plus, KEYS.Key_Minus,
+                             KEYS.Key_Slash, KEYS.Key_Asterisk, KEYS.Key_P]
 
+# ==============================================================================
+# ============================EMITINDO SINAIS===================================
+# ==============================================================================
         if isEnter or text == '=':
             self.enterPressed.emit()
             return event.ignore()
 
         if isDelete:
             self.delPressed.emit()
-            print('delete')
             return event.ignore()
 
         if isEsc or text == 'c':
             self.clearPressed.emit()
-            print('esc')
+            return event.ignore()
+
+        if isOperator:
+            if text.lower() == 'p':
+                text = '^'
+            self.operatorPressed.emit(text)
             return event.ignore()
 
         # return super().keyPressEvent(event)
@@ -53,6 +65,5 @@ class Display(QLineEdit):
             return event.ignore()
 
         if isNumOrDot(text):
-            print('aaa')
             self.inputPressed.emit(text)
             return event.ignore()
