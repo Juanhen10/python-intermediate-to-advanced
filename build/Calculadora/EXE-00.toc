@@ -1,0 +1,830 @@
+('C:\\Users\\Juan Henrique\\Desktop\\pythonn\\dist\\Calculadora.exe',
+ False,
+ False,
+ False,
+ ['C:\\Users\\Juan '
+  'Henrique\\Desktop\\pythonn\\PYside6_interface_Grafica\\Project\\files\\icon6.jpg'],
+ None,
+ False,
+ False,
+ '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"><assemblyIdentity type="win32" name="Calculadora" processorArchitecture="amd64" version="1.0.0.0"/><trustInfo xmlns="urn:schemas-microsoft-com:asm.v3"><security><requestedPrivileges><requestedExecutionLevel level="asInvoker" uiAccess="false"/></requestedPrivileges></security></trustInfo><dependency><dependentAssembly><assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" language="*" processorArchitecture="*" version="6.0.0.0" publicKeyToken="6595b64144ccf1df"/></dependentAssembly></dependency><compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"><application><supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/><supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/><supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/><supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/><supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/></application></compatibility><application xmlns="urn:schemas-microsoft-com:asm.v3"><windowsSettings><longPathAware xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">true</longPathAware></windowsSettings></application></assembly>',
+ True,
+ True,
+ False,
+ None,
+ None,
+ None,
+ 'C:\\Users\\Juan '
+ 'Henrique\\Desktop\\pythonn\\build\\Calculadora\\Calculadora.pkg',
+ [('PYZ-00.pyz',
+   'C:\\Users\\Juan Henrique\\Desktop\\pythonn\\build\\Calculadora\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Juan '
+   'Henrique\\Desktop\\pythonn\\build\\Calculadora\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\Juan '
+   'Henrique\\Desktop\\pythonn\\build\\Calculadora\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\Juan '
+   'Henrique\\Desktop\\pythonn\\build\\Calculadora\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\Juan '
+   'Henrique\\Desktop\\pythonn\\build\\Calculadora\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\Juan '
+   'Henrique\\Desktop\\pythonn\\build\\Calculadora\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyside6',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyside6.py',
+   'PYSOURCE'),
+  ('main',
+   'C:\\Users\\Juan '
+   'Henrique\\Desktop\\pythonn\\PYside6_interface_Grafica\\Project\\main.py',
+   'PYSOURCE'),
+  ('VCRUNTIME140.dll',
+   'C:\\Program Files\\Python311\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python311.dll', 'C:\\Program Files\\Python311\\python311.dll', 'BINARY'),
+  ('PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtga.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtiff.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qicns.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\styles\\qwindowsvistastyle.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\styles\\qwindowsvistastyle.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'BINARY'),
+  ('PySide6\\opengl32sw.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\opengl32sw.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qwindows.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qsvg.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qminimal.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwebp.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qico.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qcertonlybackend.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\tls\\qcertonlybackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qgif.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qpdf.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\imageformats\\qpdf.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('select.pyd', 'C:\\Program Files\\Python311\\DLLs\\select.pyd', 'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd', 'C:\\Program Files\\Python311\\DLLs\\_lzma.pyd', 'EXTENSION'),
+  ('_bz2.pyd', 'C:\\Program Files\\Python311\\DLLs\\_bz2.pyd', 'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd', 'C:\\Program Files\\Python311\\DLLs\\_ssl.pyd', 'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd', 'C:\\Program Files\\Python311\\DLLs\\_queue.pyd', 'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('markupsafe\\_speedups.cp311-win_amd64.pyd',
+   'C:\\Program '
+   'Files\\Python311\\Lib\\site-packages\\markupsafe\\_speedups.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Program Files\\Python311\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtCore.pyd',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\QtCore.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtNetwork.pyd',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\QtNetwork.pyd',
+   'EXTENSION'),
+  ('shiboken6\\Shiboken.pyd',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\shiboken6\\Shiboken.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtUiTools.pyd',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\QtUiTools.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtOpenGLWidgets.pyd',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\QtOpenGLWidgets.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtOpenGL.pyd',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\QtOpenGL.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtSvg.pyd',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\QtSvg.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtWidgets.pyd',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtGui.pyd',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\QtGui.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Program Files\\Python311\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Network.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\Qt6Network.dll',
+   'BINARY'),
+  ('shiboken6\\MSVCP140.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\shiboken6\\MSVCP140.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Core.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\Qt6Core.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Gui.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\Qt6Gui.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Widgets.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\Qt6Widgets.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Svg.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\Qt6Svg.dll',
+   'BINARY'),
+  ('PySide6\\Qt6VirtualKeyboard.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\Qt6VirtualKeyboard.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Pdf.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\Qt6Pdf.dll',
+   'BINARY'),
+  ('libcrypto-1_1.dll',
+   'C:\\Program Files\\Python311\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Program Files\\Python311\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Program Files\\Python311\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('python3.dll', 'C:\\Program Files\\Python311\\python3.dll', 'BINARY'),
+  ('PySide6\\pyside6.abi3.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\pyside6.abi3.dll',
+   'BINARY'),
+  ('shiboken6\\shiboken6.abi3.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\shiboken6\\shiboken6.abi3.dll',
+   'BINARY'),
+  ('shiboken6\\VCRUNTIME140_1.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\shiboken6\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PySide6\\Qt6UiTools.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\Qt6UiTools.dll',
+   'BINARY'),
+  ('PySide6\\Qt6OpenGLWidgets.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\Qt6OpenGLWidgets.dll',
+   'BINARY'),
+  ('PySide6\\Qt6OpenGL.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\Qt6OpenGL.dll',
+   'BINARY'),
+  ('shiboken6\\MSVCP140_2.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\shiboken6\\MSVCP140_2.dll',
+   'BINARY'),
+  ('shiboken6\\MSVCP140_1.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\shiboken6\\MSVCP140_1.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Qml.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\Qt6Qml.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Quick.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\Qt6Quick.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlModels.dll',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\Qt6QmlModels.dll',
+   'BINARY'),
+  ('files\\icon6.jpg',
+   'C:\\Users\\Juan '
+   'Henrique\\Desktop\\pythonn\\PYside6_interface_Grafica\\Project\\files\\icon6.jpg',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\Juan '
+   'Henrique\\Desktop\\pythonn\\build\\Calculadora\\base_library.zip',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_gd.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('qt_material\\themes\\dark_pink.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\dark_pink.xml',
+   'DATA'),
+  ('qt_material\\resources\\source\\base.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\base.svg',
+   'DATA'),
+  ('qt_material\\resources\\logo\\logo.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\logo\\logo.svg',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\Roboto-Black.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\Roboto-Black.ttf',
+   'DATA'),
+  ('qt_material\\themes\\light_pink.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_pink.xml',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_es.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('qt_material\\resources\\source\\radiobutton_unchecked.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\radiobutton_unchecked.svg',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\RobotoCondensed-Bold.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\RobotoCondensed-Bold.ttf',
+   'DATA'),
+  ('qt_material\\resources\\source\\rightarrow.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\rightarrow.svg',
+   'DATA'),
+  ('qt_material\\themes\\dark_teal.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\dark_teal.xml',
+   'DATA'),
+  ('qt_material\\resources\\source\\branch-open.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\branch-open.svg',
+   'DATA'),
+  ('qt_material\\themes\\light_cyan_500.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_cyan_500.xml',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\Roboto-Medium.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\Roboto-Medium.ttf',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fr.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_tr.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('qt_material\\resources\\source\\downarrow2.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\downarrow2.svg',
+   'DATA'),
+  ('qt_material\\resources\\source\\checkbox_indeterminate.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\checkbox_indeterminate.svg',
+   'DATA'),
+  ('qt_material\\resources\\logo\\__init__.py',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\logo\\__init__.py',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_lv.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nl.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_nl.qm',
+   'DATA'),
+  ('qt_material\\themes\\dark_lightgreen.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\dark_lightgreen.xml',
+   'DATA'),
+  ('qt_material\\resources\\source\\splitter-vertical.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\splitter-vertical.svg',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\Roboto-Bold.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\Roboto-Bold.ttf',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\RobotoCondensed-BoldItalic.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\RobotoCondensed-BoldItalic.ttf',
+   'DATA'),
+  ('qt_material\\themes\\light_amber.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_amber.xml',
+   'DATA'),
+  ('qt_material\\material.css.template',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\material.css.template',
+   'DATA'),
+  ('qt_material\\resources\\source\\splitter-horizontal.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\splitter-horizontal.svg',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\Roboto-Thin.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\Roboto-Thin.ttf',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ja.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('qt_material\\resources\\source\\checkbox_checked.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\checkbox_checked.svg',
+   'DATA'),
+  ('qt_material\\themes\\light_red_500.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_red_500.xml',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\RobotoCondensed-LightItalic.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\RobotoCondensed-LightItalic.ttf',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ar.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('qt_material\\themes\\dark_cyan.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\dark_cyan.xml',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\Roboto-BoldItalic.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\Roboto-BoldItalic.ttf',
+   'DATA'),
+  ('qt_material\\resources\\source\\toolbar-handle-vertical.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\toolbar-handle-vertical.svg',
+   'DATA'),
+  ('qt_material\\resources\\source\\close.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\close.svg',
+   'DATA'),
+  ('qt_material\\themes\\light_orange.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_orange.xml',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_de.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('qt_material\\themes\\light_yellow.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_yellow.xml',
+   'DATA'),
+  ('qt_material\\resources\\source\\tab_close.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\tab_close.svg',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\Roboto-ThinItalic.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\Roboto-ThinItalic.ttf',
+   'DATA'),
+  ('qt_material\\resources\\source\\checkbox_checked_invert.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\checkbox_checked_invert.svg',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hu.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('qt_material\\resources\\__init__.py',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\__init__.py',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_da.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\Roboto-Regular.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\Roboto-Regular.ttf',
+   'DATA'),
+  ('qt_material\\resources\\source\\radiobutton_checked.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\radiobutton_checked.svg',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\Roboto-Italic.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\Roboto-Italic.ttf',
+   'DATA'),
+  ('qt_material\\resources\\source\\__pycache__\\__init__.cpython-311.pyc',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\__pycache__\\__init__.cpython-311.pyc',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pl.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('qt_material\\themes\\dark_medical.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\dark_medical.xml',
+   'DATA'),
+  ('qt_material\\resources\\source\\branch-end.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\branch-end.svg',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ca.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_it.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_cs.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hr.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\Roboto-Light.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\Roboto-Light.ttf',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\Roboto-BlackItalic.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\Roboto-BlackItalic.ttf',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\RobotoCondensed-Italic.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\RobotoCondensed-Italic.ttf',
+   'DATA'),
+  ('qt_material\\themes\\light_blue_500.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_blue_500.xml',
+   'DATA'),
+  ('qt_material\\resources\\source\\checklist_indeterminate_invert.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\checklist_indeterminate_invert.svg',
+   'DATA'),
+  ('qt_material\\themes\\light_purple.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_purple.xml',
+   'DATA'),
+  ('qt_material\\themes\\light_teal.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_teal.xml',
+   'DATA'),
+  ('qt_material\\themes\\light_red.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_red.xml',
+   'DATA'),
+  ('qt_material\\themes\\light_cyan.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_cyan.xml',
+   'DATA'),
+  ('qt_material\\resources\\generate.py',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\generate.py',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pt_BR.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
+   'DATA'),
+  ('qt_material\\resources\\source\\slider.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\slider.svg',
+   'DATA'),
+  ('qt_material\\themes\\light_pink_500.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_pink_500.xml',
+   'DATA'),
+  ('qt_material\\resources\\source\\checklist.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\checklist.svg',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nn.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_TW.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('qt_material\\resources\\source\\__init__.py',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\__init__.py',
+   'DATA'),
+  ('qt_material\\themes\\light_purple_500.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_purple_500.xml',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_CN.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('qt_material\\resources\\source\\checklist_indeterminate.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\checklist_indeterminate.svg',
+   'DATA'),
+  ('qt_material\\themes\\light_blue.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_blue.xml',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fa.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_fa.qm',
+   'DATA'),
+  ('qt_material\\resources\\source\\uparrow.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\uparrow.svg',
+   'DATA'),
+  ('qt_material\\resources\\source\\toolbar-handle-horizontal.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\toolbar-handle-horizontal.svg',
+   'DATA'),
+  ('qt_material\\themes\\dark_purple.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\dark_purple.xml',
+   'DATA'),
+  ('qt_material\\resources\\source\\branch-more.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\branch-more.svg',
+   'DATA'),
+  ('qt_material\\resources\\source\\uparrow2.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\uparrow2.svg',
+   'DATA'),
+  ('qt_material\\resources\\source\\radiobutton_unchecked_invert.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\radiobutton_unchecked_invert.svg',
+   'DATA'),
+  ('qt_material\\themes\\dark_blue.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\dark_blue.xml',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\RobotoCondensed-Light.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\RobotoCondensed-Light.ttf',
+   'DATA'),
+  ('qt_material\\themes\\dark_amber.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\dark_amber.xml',
+   'DATA'),
+  ('qt_material\\resources\\__pycache__\\generate.cpython-311.pyc',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\__pycache__\\generate.cpython-311.pyc',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\Roboto-LightItalic.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\Roboto-LightItalic.ttf',
+   'DATA'),
+  ('qt_material\\resources\\source\\vline.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\vline.svg',
+   'DATA'),
+  ('qt_material\\themes\\dark_red.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\dark_red.xml',
+   'DATA'),
+  ('qt_material\\resources\\source\\checkbox_indeterminate_invert.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\checkbox_indeterminate_invert.svg',
+   'DATA'),
+  ('qt_material\\resources\\logo\\logo_frame.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\logo\\logo_frame.svg',
+   'DATA'),
+  ('qt_material\\resources\\source\\checklist_invert.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\checklist_invert.svg',
+   'DATA'),
+  ('qt_material\\themes\\light_lightgreen_500.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_lightgreen_500.xml',
+   'DATA'),
+  ('qt_material\\themes\\light_teal_500.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_teal_500.xml',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fi.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('qt_material\\resources\\source\\leftarrow2.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\leftarrow2.svg',
+   'DATA'),
+  ('qt_material\\resources\\source\\sizegrip.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\sizegrip.svg',
+   'DATA'),
+  ('qt_material\\resources\\logo\\__pycache__\\__init__.cpython-311.pyc',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\logo\\__pycache__\\__init__.cpython-311.pyc',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\Roboto-MediumItalic.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\Roboto-MediumItalic.ttf',
+   'DATA'),
+  ('qt_material\\dock_theme.ui',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\dock_theme.ui',
+   'DATA'),
+  ('qt_material\\resources\\source\\float.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\float.svg',
+   'DATA'),
+  ('qt_material\\resources\\__pycache__\\__init__.cpython-311.pyc',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\__pycache__\\__init__.cpython-311.pyc',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_he.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ru.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_en.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('qt_material\\resources\\source\\branch-closed.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\branch-closed.svg',
+   'DATA'),
+  ('qt_material\\fonts\\roboto\\RobotoCondensed-Regular.ttf',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\fonts\\roboto\\RobotoCondensed-Regular.ttf',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_bg.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('qt_material\\themes\\dark_yellow.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\dark_yellow.xml',
+   'DATA'),
+  ('qt_material\\resources\\source\\radiobutton_checked_invert.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\radiobutton_checked_invert.svg',
+   'DATA'),
+  ('qt_material\\resources\\source\\downarrow.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\downarrow.svg',
+   'DATA'),
+  ('qt_material\\resources\\source\\checkbox_unchecked_invert.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\checkbox_unchecked_invert.svg',
+   'DATA'),
+  ('qt_material\\resources\\source\\checkbox_unchecked.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\checkbox_unchecked.svg',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_sk.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('qt_material\\themes\\light_lightgreen.xml',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\themes\\light_lightgreen.xml',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_uk.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ko.qm',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('qt_material\\resources\\source\\rightarrow2.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\rightarrow2.svg',
+   'DATA'),
+  ('qt_material\\resources\\source\\leftarrow.svg',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\qt_material\\resources\\source\\leftarrow.svg',
+   'DATA')],
+ [],
+ False,
+ False,
+ 1682972433,
+ [('runw.exe',
+   'C:\\Users\\Juan '
+   'Henrique\\AppData\\Roaming\\Python\\Python311\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
+   'EXECUTABLE')])
