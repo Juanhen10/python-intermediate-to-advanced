@@ -5,4 +5,5 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-./mysql_206:/var/lib/mysql
+mysql_206
+mysql_207
