@@ -106,6 +106,9 @@ import dotenv
 # GitHub: htpps://github.com/PyMySQL
 import pymysql
 
+os.system('cls')
+TABLE_NAME = 'custormer'
+
 dotenv.load_dotenv()
 
 connection = pymysql.Connect(
@@ -113,19 +116,50 @@ connection = pymysql.Connect(
     user=os.environ['MYSQL_USER'],
     password=os.environ['MYSQL_PASSWORD'],
     database=os.environ['MYSQL_DATABASE'],
+    charset='utf8mb4'
 )
 
-
+# Inserindo dados
 with connection:
     with connection.cursor() as cursor:
         # SQL
         cursor.execute(
-            'CREATE TABLE IF NOT EXISTS customers ('
+            f'CREATE TABLE IF NOT EXISTS {TABLE_NAME} ('
             'id INT NOT NULL AUTO_INCREMENT, '
             'name VARCHAR(50) NOT NULL, '
             'years INT NOT NULL, '
             'PRIMARY KEY (id) '
             ') '
         )
-        connection.commit()
-        print(cursor)
+        # TRUNCATE: LIMPA A TABELA
+        cursor.execute(f'TRUNCATE TABLE {TABLE_NAME}')
+    connection.commit()
+
+    with connection.cursor() as cursor:
+        sql = (
+            f'INSERT INTO {TABLE_NAME} '
+            '(name, age) '
+            'VALUES '
+            '(%s, %s) '
+        )
+        data = ('juan', 23)
+        result = cursor.execute(sql, data)
+        # print(sql, data)
+        # print(result)
+    connection.commit()
+
+    with connection.cursor() as cursor:
+        sql = (
+            f'INSERT INTO {TABLE_NAME} '
+            '(name, age) '
+            'VALUES '
+            '(%(name)s, %(age)s) '
+        )
+        data2 = {
+            "name": "Victor",
+            "age": 27,
+        }
+        result = cursor.execute(sql, data2)
+        # print(sql, data)
+        # print(result)
+    connection.commit()
