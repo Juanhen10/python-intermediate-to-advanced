@@ -118,8 +118,8 @@ connection = pymysql.Connect(
     password=os.environ['MYSQL_PASSWORD'],
     database=os.environ['MYSQL_DATABASE'],
     charset='utf8mb4',
-    cursorclass=pymysql.cursors.SSDictCursor,
-    # cursorclass=pymysql.cursors.DictCursor,
+    # cursorclass=pymysql.cursors.SSDictCursor,
+    cursorclass=pymysql.cursors.DictCursor,
 )
 
 ########################################################################
@@ -235,19 +235,29 @@ with connection:
         cursor.execute(sql, ('paulin', 15, 4))
         connection.commit()
 
-        cursor.execute(f'SELECT * FROM {TABLE_NAME} ')
+        resultFromSelect = cursor.execute(f'SELECT * FROM {TABLE_NAME} ')
 
-        # data6 = cursor.fetchall_unbuffered()
+        data6 = cursor.fetchall()
 
-        for row in cursor.fetchall_unbuffered():
+        for row in data6:
             print(
-                f'\033[32mid:{row["id"]}\033[m - \033[31mName: {row["name"]} \033[m- \033[35mAge:{row["age"]}\033[m]')
-            if row['id'] >= 5:
-                break
-        print()
-        # cursor.scroll(1, 'absolute')
-        for row in cursor.fetchall_unbuffered():
-            print(row)
+                f'\033[32midr:{row["id"]}\033[m - \033[31mName: {row["name"]} \033[m- \033[35mAge:{row["age"]}\033[m]')
+
+        cursor.execute(f'SELECT id FROM {TABLE_NAME} ORDER BY id DESC LIMIT 1')
+        lastId = cursor.fetchone()
+        print(lastId)
+
+        print('resultFromSelect:', resultFromSelect)
+        print('len(data):', len(data6))
+        print('rowcount:', cursor.rowcount)
+        print('lastrowid:', cursor.lastrowid)
+        print('lastrowid raiz:', lastId)
+        print('rownumber:', cursor.rownumber)
+
+        # print()
+        # # cursor.scroll(1, 'absolute')
+        # for row in cursor.fetchall_unbuffered():
+        #     print(row)
 
         # for row in cursor.fetchall():
         #     _id, name, age = row
