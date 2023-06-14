@@ -17,3 +17,6 @@ asgi.py
 
 '''
 # startapp = vai criar seus app, por exemplo, você quer uma loja de carro então tudo será no mesmo app
+"Include"
+"Extends"
+"Block"
