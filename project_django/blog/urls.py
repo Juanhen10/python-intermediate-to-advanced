@@ -5,7 +5,9 @@ from django.urls import path
 #  HTTP Request <-> HTTP Response
 # MTV (MVC) - mode view tamplate
 
+app_name = 'blog'
+
 urlpatterns = [
-    path('', blog_views.blog),
-    path('exemplo/', blog_views.exemplo),
+    path('', blog_views.blog, name='home'),
+    path('exemplo/', blog_views.exemplo, name='exemplo'),
 ]

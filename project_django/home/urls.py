@@ -3,7 +3,8 @@ from home import views
 
 #  HTTP Request <-> HTTP Response
 # MTV (MVC) - mode view tamplate
+app_name = 'home'
 
 urlpatterns = [
-    path('', views.home),
+    path('', views.home, name='home'),
 ]
