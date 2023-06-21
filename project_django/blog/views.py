@@ -17,7 +17,7 @@ def blog(request):
 def exemplo(request):
     context = {
         'text': 'ola exemplo',
-        'title': 'Essa é uma página de exemplo'
+        'title': 'Essa é uma página de exemplo '
     }
     return render(
         request,
