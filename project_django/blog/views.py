@@ -1,3 +1,4 @@
+from blog.data import posts
 from django.shortcuts import render
 
 # Create your views here.
@@ -5,7 +6,8 @@ from django.shortcuts import render
 
 def blog(request):
     context = {
-        'text': 'ola blog'
+        # 'text': 'ola blog',
+        'posts': posts
     }
     return render(
         request,
@@ -17,7 +19,8 @@ def blog(request):
 def exemplo(request):
     context = {
         'text': 'ola exemplo',
-        'title': 'Essa é uma página de exemplo '
+        'title': 'Essa é uma página de exemplo ',
+
     }
     return render(
         request,

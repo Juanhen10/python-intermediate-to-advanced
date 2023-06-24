@@ -1,14 +1,9 @@
 {% extends 'global/base.html' %}
-{% block texto %} 
-{{text}}
-{% endblock texto %} 
+{% block texto %} {{text}} {% endblock texto %} 
 
-{% block post %}
-    {% include 'global/partials/postblock.html' %}
-    {% include 'global/partials/postblock.html' %}
-    {% include 'global/partials/postblock.html' %}
-{% endblock post %}
+{% block posts %}
+    {% for post in posts  %}
+        {% include 'global/partials/postblock.html' %}
+    {% endfor %}
+{% endblock posts %}
 
-{% block home %}
-    <h1> HOME </h1>
-{% endblock home %}
