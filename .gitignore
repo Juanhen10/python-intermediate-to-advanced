@@ -7,4 +7,4 @@ env.bak/
 venv.bak/
 mysql_206
 mysql_207
-static_files
+project_django/static_files
